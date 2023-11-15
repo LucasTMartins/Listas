@@ -4,15 +4,17 @@ public class Main {
     public static void main(String[] args) {
         LinkedList lista = new LinkedList();
         Scanner sc = new Scanner(System.in);
+        Integer value;
+        Boolean valid_value = true;
 
         System.out.println("Digite os valores que quiser em sua lista. " +
-                "\n(para parar pressione Enter sem nenhum valor)");
+                "\n(para parar insira um)");
+        // System.out.println("Digite os valores que quiser em sua lista. " +
+        //         "\n(para parar insira um)");
 
-        while (true){
-            lista.add(sc.nextInt());
-
+        while (valid_value){
+            value = sc.nextInt();
+            lista.add(value);
         }
-//            System.out.println("Escolha a opção desejada:" +
-//                               "\n1- ");
     }
 }
