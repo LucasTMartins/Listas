@@ -1,8 +1,11 @@
 class Node {
-    int data;
+    int value;
     Node next;
-    public Node(int data) {
-        this.data = data;
+    Node previous;
+
+    public Node(int value) {
+        this.value = value;
         this.next = null;
+        this.previous = null;
     }
 }
