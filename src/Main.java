@@ -2,6 +2,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("\nNome: Lucas Martins de Oliveira"
+                + "\nMatéria: Estruturas de dados"
+                + "\nProfessor: Ricardo Vilaverde"
+                + "\nInstituição: UNIFAN");
+
         LinkedList lista = new LinkedList();
         DoublyLinkedList listaDupla = new DoublyLinkedList();
         Scanner sc = new Scanner(System.in);
